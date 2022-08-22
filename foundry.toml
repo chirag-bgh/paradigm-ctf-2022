@@ -4,4 +4,4 @@ out = 'out'
 libs = ['lib']
 
 [rpc_endpoints]
-paradigm = "INSERT"
+paradigm = "http://34.66.135.107:8545/7e83274d-32ad-4c8d-b01d-56c6167846b5"

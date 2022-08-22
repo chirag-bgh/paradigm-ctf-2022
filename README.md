@@ -14,3 +14,10 @@ This is a template for the Spearbit Rearguard team (or anyone else who finds it)
 - Write exploit in the test (after `vm.createSelectFork(vm.rpcUrl("paradigm"));`). Use cast commands in terminal or console.logs in the test to aid as needed.
 - When the test succeeds, copy everything over to `script/Exploitoor.s.sol`, in between `startBroadcast()` and `stopBroadcast()`.
 - Call `bash exploit.sh` to run the script on the Paradigm network with your private key.
+
+
+## Random
+
+- forge test -vvvvv
+- forge script RandomExploitScript --fork-url http://34.66.135.107:8545/7e83274d-32ad-4c8d-b01d-56c6167846b5 --private-key 0x4184069908bfc646626eb8050677952bfc33077908e5e8acb1b8dba3c97fe962 --gas-limit 10000000 --sig "run(address)" 0x64d92b4C3df109aa6c6e441d0fDD1CC3816854b0 -vvvvv --broadcast
+- PCTF{IT5_C7F_71M3}
